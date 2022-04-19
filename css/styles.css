@@ -345,6 +345,7 @@ margin-right: 0;
     
 }
 .footer .contacts {
+    font-weight: 400;
     display: block;
     font-size: 14px;
     font-style: normal;
