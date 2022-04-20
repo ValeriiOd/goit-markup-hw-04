@@ -77,7 +77,8 @@ ul {
 .contacts-style .item + .item {
    margin-left: 50px;
 }
-.contacts:hover{
+.contacts:hover,
+.contacts:focus{
     color:var(--accent-color-text);
 }
 .hero {
@@ -209,7 +210,7 @@ margin-right: 0;
 .icon-tech::before{
     background-image: url('../images/group4.svg');
 }
-        /* work */
+                     /* work */
 .our-work {
     padding-bottom: 94px;
 }
@@ -218,11 +219,7 @@ margin-right: 0;
     list-style-type: none;
     padding-left: 0;
 }
-.team {
-    background: #F5F4FA;
-        padding-bottom: 94px;
-        padding-top: 94px;
-}
+
 .work-tittle {
     font-weight: 700;
     font-size: 36px;
@@ -234,6 +231,67 @@ margin-right: 0;
 }
 .work .item + .item {
     margin-left: 30px;
+}
+.work-thumb {
+    position: relative;
+}
+.desktop {
+    position: absolute;
+    top: 75%;
+    width: 370px;
+    height: 70px;
+    background: rgba(47, 48, 58, 0.8); 
+    padding-top: 27px;
+    padding-bottom: 27px;  
+ 
+
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: var(--additional-color);
+}
+.mobile{
+    position: absolute;
+    top: 75%;
+    width: 370px;
+    height: 70px;
+    background: rgba(47, 48, 58, 0.8); 
+    padding-top: 27px;
+    padding-bottom: 27px;  
+
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: var(--additional-color);
+
+
+}
+.design{
+    position: absolute;
+    top: 75%;
+    width: 370px;
+    height: 70px;
+    background: rgba(47, 48, 58, 0.8); 
+    padding-top: 27px;
+    padding-bottom: 27px;  
+  
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: var(--additional-color);
+
+}
+                         /* team*/
+.team {
+    background: #F5F4FA;
+        padding-bottom: 94px;
+        padding-top: 94px;
 }
 .team-header {
     font-weight: 700;
@@ -280,7 +338,7 @@ margin-right: 0;
     padding-top: 30px;
     padding-bottom: 30px ;
 }
-    /* clients*/
+                     /* clients*/
 .clients {
     padding-top: 94px;
     padding-bottom: 94px;
